@@ -47,9 +47,16 @@ void quickSort(int arr[], int low, int high)
 void printArray(int arr[], int size)
 {
     int i;
-    for (i = 0; i < size; i++)
+    int x;
+    for (i = 0; i < size; i++){
         cout << arr[i] << " ";
+        if (arr[i]%2==0){
+            x = arr[i];
+        }
+    }
         cout << endl;
+    
+    cout << x+2;
 }
 // Código principal para utilizarlo
 int main()
